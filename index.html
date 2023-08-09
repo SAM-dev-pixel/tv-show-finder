@@ -3,24 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>TV Show Finder</title>
   </head>
   <body>
-    <h1>TV Show Finder</h1>
-    <form action="" class="search-form">
-      <input type="text" name="query" />
-      <button>Find</button>
-    </form>
-    <ul class="show-container">
-      <!-- <li class="show-wrapper">
-        <h2></h2>
-        <img src="" alt="" />
-      </li>
-      <li class="show-wrapper">
-        <h2></h2>
-        <img src="" alt="" />
-      </li> -->
-    </ul>
+    <header>
+      <div class="sub-head">
+        <h1 class="title">TV Show Finder</h1>
+      <form action="" class="search-form">
+        <input
+          type="text"
+          name="query"
+          placeholder="Search tv shows..."
+          class="search-input"
+        />
+        <button class="search-btn"><img src="search-icon.svg" alt="" /></button>
+      </form>
+      </div>
+    </header>
+    <main>
+      <ul class="show-container">
+        <!-- code by javascript -->
+      </ul>
+      <p class="powered">Powered by <a href="https://www.tvmaze.com/" target="_blank">TVMAZE</a></p>
+    </main>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
